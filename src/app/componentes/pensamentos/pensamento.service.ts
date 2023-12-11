@@ -18,4 +18,14 @@ export class PensamentoService {
   cadastrar(pensamento: Pensamento): Observable<Pensamento> {
     return this.http.post<Pensamento>(this.api_url, pensamento)
   }
+
+  excluir(id: number): Observable<Pensamento> {
+    const request_url = `${this.api_url}/${id}`
+    return this.http.delete<Pensamento>(request_url)
+  }
+
+  buscarPorId(id: number): Observable<Pensamento> {
+    const request_url = `${this.api_url}/${id}`
+    return this.http.get<Pensamento>(request_url);
+  }
 }
