@@ -1,0 +1,22 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Que bom que você veio!",
+      "autoria": "Nay",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "Desenvolvimento de Software é uma área muito importante e programação é algo indispensável na atualidade. Aprender a programar não é difícil, é, na realidade, muito bom!",
+      "autoria": "Programador secreto",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "Estudar Angular é bom demais! E esse curso da Alura é melhor ainda.",
+      "autoria": "Rods",
+      "modelo": "modelo3"
+    }
+  ]
+}
